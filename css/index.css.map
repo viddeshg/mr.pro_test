@@ -4,6 +4,6 @@
   "sources": [
     "index.scss"
   ],
-  "mappings": "",
+  "mappings": ";AAAA,AAEI,KAFC,CAED,CAAC,CACD;EACI,mBAAmB,EAAE,IAAK,GAC7B;;;AALL,AASQ,KATH,CAOD,CAAC,AAAA,MAAM,CAEH,CAAC,CACD;EACI,KAAK,EAAE,OAAQ,GAClB",
   "names": []
 }

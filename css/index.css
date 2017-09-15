@@ -1,2 +1,9 @@
+/* line 3, /Users/viddeshgharpure/Desktop/Mr.Pro/css/index.scss */
+.tabs a {
+  border-bottom-style: none; }
+
+/* line 10, /Users/viddeshgharpure/Desktop/Mr.Pro/css/index.scss */
+.tabs a:hover i {
+  color: #bd1a8d; }
 
 /*# sourceMappingURL=index.css.map */

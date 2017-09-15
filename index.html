@@ -6,7 +6,8 @@
     <title>Mr.Pro | Detergent Specialist</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css"> 
+    <link rel="stylesheet" href="css/default.css">  
   </head>
   <body>
     <section class="hero is-primary is-medium" style="background-color:#bd1a8d;">
@@ -82,6 +83,36 @@
   </div>
 -->
 </section>
+    
+     <div class="container  is-hidden-mobile" style="width:85%; margin-top: 40px;" >
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Caustic Phoshate Bleach</p>
+              <p class="title odometer" id="bleach">9</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">NET WEIGHT (KG)</p>
+              <p class="title odometer" id="net">7</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Distinct Advantages</p>
+              <p class="title odometer" id="advantages">9</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Maximum Retail Price (₹)</p>
+              <p class="title odometer" id="mrp">99</p>
+            </div>
+          </div>
+        </nav>
+    </div>
+    
      <section style="margin-top: 40px;">
       <div class="container" style="width: 85%;">
         <div class="content">
@@ -96,50 +127,66 @@
       </div>
      </section>
      
-<footer style="margin-top: 40px;" class="footer">
-    <div class="container">
-        <div class="columns">
-            <div class="column content is-8 is-offset-2">
-                <h1 style="" class="has-text-centered">Contact Us</h1>
-                <div class="tabs is-centered">
-                    <ul>
-                        <li>
-                            <a href="https://www.fb.com/dakshchadhafilms">
-                                <span class="icon is-small"><i class="fa fa-facebook"></i></span>
-                            </a>
-                        </li>
+    <footer style="margin-top: 40px;" class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column content is-8 is-offset-2">
+                    <h1 class="has-text-centered">Contact Us</h1>
+                    <div class="tabs is-centered">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span class="icon is-small"><i class="fa fa-facebook"></i></span>
+                                </a>
+                            </li>
 
 
-                        <li>
-                            <a href="">
-                                <span class="icon is-small"><i class="fa fa-twitter"></i></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:@gmail.com">
-                                <span class="icon is-small"><i class="fa fa-envelope"></i></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span class="icon is-small"><i class="fa fa-whatsapp"></i></span>
-                            </a>
-                        </li>
-                    </ul>
+                            <li>
+                                <a href="">
+                                    <span class="icon is-small"><i class="fa fa-twitter"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:@gmail.com">
+                                    <span class="icon is-small"><i class="fa fa-envelope"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon is-small"><i class="fa fa-whatsapp"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <div class="content has-text-centered">
+                <p>
+
+                    Baisahab Ki Haweli, Shahbazar, <br>Burhanpur - 450331, Madhya Pradesh, India. <br>
+                        Mr. Prashant Shukla (Marketing Manager)<br>
+                        <strong><i class="fa fa-phone"></i> Call:</strong> +918989617347
+                    <br>
+                    <br>&copy; 2017 <strong style="color:#bd1a8d">Padam Products.</strong> All rights reserved.
+                </p>
+            </div>
         </div>
-        <div class="content has-text-centered">
-            <p class="footerName" style="font-family: 'Raleway', sans-serif;">
-                
-                Baisahab Ki Haweli, Shahbazar, <br>Burhanpur - 450331, Madhya Pradesh, India. <br>
-                    Mr. Prashant Shukla (Marketing Manager)<br>
-                    <strong><i class="fa fa-phone"></i> Call:</strong> +918989617347
-                <br>
-                <br>&copy; 2017 <strong style="color:#">Padam Products.</strong> All rights reserved.
-            </p>
-        </div>
-    </div>
-</footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/odometer.js"></script>
+    <script>
+        setTimeout(function(){
+            bleach.innerHTML = 0;
+        }, 10);
+        setTimeout(function(){
+            net.innerHTML = 1;
+        }, 10);
+        setTimeout(function(){
+            advantages.innerHTML = 5;
+        }, 10);
+        setTimeout(function(){
+            mrp.innerHTML = 80;
+        }, 10);
+    </script>
   </body>
 </html>
