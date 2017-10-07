@@ -6,9 +6,24 @@
 .tabs a:hover i {
   color: #bd1a8d; }
 
-/* line 19, /Users/viddeshgharpure/Desktop/Mr.Pro/css/index.scss */
-.nav-menu a {
-  color: rgba(255, 255, 255, 0.7);
-  background-color: #bd1a8d; }
+  .button.is-focused, .button:focus
+  {
+      border-color: #fff !important;
+  }
 
+  .button.is-focused:not(:active), .button:focus:not(:active)
+  {
+    -webkit-box-shadow: none;
+  }
 /*# sourceMappingURL=index.css.map */
+
+@media only screen and (max-width: 500px) {
+  .h3 {
+      width:100% !important;
+  }
+}
+
+figure 
+{
+  margin: 0 auto !important;
+}

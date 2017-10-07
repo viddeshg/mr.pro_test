@@ -14,11 +14,15 @@
     }
 }
 
-.nav-menu 
+.button.is-focused, .button:focus
 {
-    a 
-    {
-        color: rgba(255,255,255,.7);
-        background-color: #bd1a8d;
-    }
+    border-color: #bd1a8d;
 }
+// .nav-menu 
+// {
+//     a 
+//     {
+//         color: rgba(255,255,255,.7);
+//         background-color: #bd1a8d;
+//     }
+// }
