@@ -27,3 +27,15 @@ figure
 {
   margin: 0 auto !important;
 }
+
+.nav { position: fixed !important; top: 0; left: 0; right: 0; }
+/* 
+.hero.is-dark .nav-item a:not(.button), .hero.is-dark a.nav-item
+{
+  color: #bd1a8d;
+} */
+
+.hero.is-dark .nav
+{
+  background-color: rgba(0,0,0,0.4);
+}
